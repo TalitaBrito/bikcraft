@@ -1,0 +1,68 @@
+.header-bg {
+    background: var(--c12);
+}
+
+.header {
+    color: var(--w);
+    padding: 32px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu a {
+    color: var(--w);
+    font-size: 1.125rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.header-menu a::after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: var(--c12);
+    display: block;
+    margin-top: 4px;
+    transition: .3s;
+    position: absolute;
+}
+
+.header-menu a:hover::after {
+    content: "";
+    background-color: var(--w);
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .header-menu {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .header-menu a {
+        padding: 8px 16px;
+        background-color: var(--c11);
+        font-size: 0.875rem;
+    }
+
+    .header-menu a:hover {
+        background-color: var(--c10);
+    }
+
+    .header-menu a::after {
+        display: none;
+    }
+}
