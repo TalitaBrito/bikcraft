@@ -1,9 +1,9 @@
 .header-bg {
-    background: var(--c12);
+    background: var(--cor-12);
 }
 
 .header {
-    color: var(--w);
+    color: var(--cor-0);
     padding: 32px 20px;
     display: flex;
     align-items: center;
@@ -16,9 +16,7 @@
 }
 
 .header-menu a {
-    color: var(--w);
-    font-size: 1.125rem;
-    font-weight: 500;
+    color: var(--cor-0);
     position: relative;
 }
 
@@ -26,7 +24,7 @@
     content: "";
     width: 0px;
     height: 2px;
-    background-color: var(--c12);
+    background-color: var(--cor-12);
     display: block;
     margin-top: 4px;
     transition: .3s;
@@ -35,7 +33,7 @@
 
 .header-menu a:hover::after {
     content: "";
-    background-color: var(--w);
+    background-color: var(--cor-0);
     width: 100%;
 }
 
@@ -54,12 +52,11 @@
 
     .header-menu a {
         padding: 8px 16px;
-        background-color: var(--c11);
-        font-size: 0.875rem;
+        background-color: var(--cor-11);
     }
 
     .header-menu a:hover {
-        background-color: var(--c10);
+        background-color: var(--cor-10);
     }
 
     .header-menu a::after {

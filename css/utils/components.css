@@ -1,0 +1,22 @@
+/* Botão */
+.button {
+    color: var(--cor-p5);
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;    
+    text-transform: uppercase;
+    background: var(--gradient);
+    border-radius: 4px;
+    padding: 16px 32px ;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    display: inline-block;
+}
+
+.button:hover {
+    background: linear-gradient(#FFB60D, #e59317);
+}
+
+@media (max-width: 600px) {
+    .button {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,13 @@
+@import './global/global.css';
+@import './global/reset.css';
+
+/* utils */
+@import './utils/components.css';
+@import './utils/tipografia.css';
+@import './utils/cores.css';
+
+/* shared */
+@import './global/header.css';
+
+/* Home */
+@import './home/intro.css'
