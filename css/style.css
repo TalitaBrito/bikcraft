@@ -10,4 +10,5 @@
 @import './global/header.css';
 
 /* Home */
-@import './home/intro.css'
+@import './home/intro.css';
+@import './home/bicicletas.css'
