@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-p1);
-    margin-bottom: 80px;
 }
 
 .depoimento img {
